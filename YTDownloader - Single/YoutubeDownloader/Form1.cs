@@ -5,15 +5,15 @@ using System.IO;  //Directory.Exists
 
 namespace YoutubeDownloader
 {
-    public partial class Form1 : Form
+    public partial class frmYTDownloader : Form
     {
-        public Form1()
+        public frmYTDownloader()
         {
             InitializeComponent();
             string folder = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments);
             txtPath.Text = folder;
             folderBrowserDialog1.SelectedPath = folder;
-            comboBox1.SelectedIndex = 0;
+            cboFileType.SelectedIndex = 0;
         }
 
         private void btnFolder_Click(object sender, EventArgs e)
@@ -58,7 +58,7 @@ namespace YoutubeDownloader
         private void Download()
         {
             //Download video
-            if ((int)comboBox1.SelectedIndex == 0) //Video is selected from dropdown list
+            if ((int)cboFileType.SelectedIndex == 0) //Video is selected from dropdown list
             {
                 //Create new videoDownloader object
                 YoutubeVideoModel videoDownloader = new YoutubeVideoModel();
@@ -109,7 +109,7 @@ namespace YoutubeDownloader
                 audioDownloader.AudioDownloaderType.DownloadFinished += (sender, args) => EnableAccessibility();
 
                 //Link progress bar up to download progress
-                audioDownloader.AudioDownloaderType.DownloadProgressChanged += (sender, args) => progressBar1.Value = (int)args.ProgressPercentage;
+                audioDownloader.AudioDownloaderType.DownloadProgressChanged += (sender, args) => pgDownload.Value = (int)args.ProgressPercentage;
 
                 //Download audio
                 FileDownloader.DownloadAudio(audioDownloader);
@@ -145,7 +145,7 @@ namespace YoutubeDownloader
                 videoDownloader.VideoDownloaderType.DownloadFinished += (sender, args) => EnableAccessibility();
 
                 //Link progress bar up to download progress
-                videoDownloader.VideoDownloaderType.DownloadProgressChanged += (sender, args) => progressBar1.Value = (int)args.ProgressPercentage;
+                videoDownloader.VideoDownloaderType.DownloadProgressChanged += (sender, args) => pgDownload.Value = (int)args.ProgressPercentage;
 
                 //Download video
                 FileDownloader.DownloadVideo(videoDownloader);
@@ -166,7 +166,7 @@ namespace YoutubeDownloader
         private void RestrictAccessibility()
         {
             btnDownload.Enabled = false;
-            comboBox1.Enabled = false;
+            cboFileType.Enabled = false;
             btnFolder.Enabled = false;
             txtPath.Enabled = false;
             txtLink1.Enabled = false;
@@ -178,11 +178,11 @@ namespace YoutubeDownloader
             lblUpdate.Text = "";
             txtLink1.Text = "";
             btnDownload.Enabled = true;
-            comboBox1.Enabled = true;
+            cboFileType.Enabled = true;
             btnFolder.Enabled = true;
             txtPath.Enabled = true;
             txtLink1.Enabled = true;
-            progressBar1.Value = 0;
+            pgDownload.Value = 0;
         }
     }
 }
