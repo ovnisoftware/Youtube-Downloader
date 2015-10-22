@@ -1,4 +1,4 @@
-﻿using System.Collections.Generic;
+﻿using System.Collections.Generic; //IEnumerable Collection
 using YoutubeExtractor;
 
 namespace YoutubeDownloader
@@ -21,5 +21,4 @@ namespace YoutubeDownloader
     {
         public AudioDownloader AudioDownloaderType { get; set; }
     }
-
 }

@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Windows.Forms;
 using YoutubeExtractor;
-using System.IO;
+using System.IO;  //Directory.Exists
 
 namespace YoutubeDownloader
 {
@@ -25,10 +25,10 @@ namespace YoutubeDownloader
 
         private void btnDownload_Click(object sender, EventArgs e)
         {
-            var isGoodLink = ValidateLink();
+            Tuple<bool, string> isGoodLink = ValidateLink();
             if (isGoodLink.Item1 == true)
             {
-                RestrictAccessibility(isGoodLink.Item2);
+                RestrictAccessibility();
                 Download();
             }
         }
@@ -163,14 +163,13 @@ namespace YoutubeDownloader
         }
 
         //Disables buttons and textboxes so they can't be clicked during a download
-        private void RestrictAccessibility(string normalUrl)
+        private void RestrictAccessibility()
         {
             btnDownload.Enabled = false;
             comboBox1.Enabled = false;
             btnFolder.Enabled = false;
             txtPath.Enabled = false;
             txtLink1.Enabled = false;
-            lblUpdate.Text = "Converting " + normalUrl + ", please wait, some videos take longer than others...";
         }
 
         //Enables buttons and textboxes after a download is complete

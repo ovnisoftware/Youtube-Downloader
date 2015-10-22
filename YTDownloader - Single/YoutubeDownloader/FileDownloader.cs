@@ -1,7 +1,7 @@
-﻿using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic; //IEnumerable Collection
+using System.IO;  //Path
+using System.Linq;  //First() method
+using System.Threading.Tasks;  //Task
 using YoutubeExtractor;
 
 namespace YoutubeDownloader
