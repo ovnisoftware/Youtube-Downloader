@@ -195,7 +195,7 @@
             this.Controls.Add(this.lblURL1);
             this.Controls.Add(this.txtLink);
             this.Name = "Form1";
-            this.Text = "Youtube Downloader";
+            this.Text = "Youtube Downloader 2.0";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

@@ -157,7 +157,7 @@
             this.Controls.Add(this.lblURL);
             this.Controls.Add(this.txtLink1);
             this.Name = "frmYTDownloader";
-            this.Text = "Youtube Downloader";
+            this.Text = "Youtube Downloader 1.0";
             ((System.ComponentModel.ISupportInitialize)(this.picLogo)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

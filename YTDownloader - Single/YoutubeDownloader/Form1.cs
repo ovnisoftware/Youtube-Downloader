@@ -29,7 +29,8 @@ namespace YoutubeDownloader
             if (isGoodLink.Item1 == true)
             {
                 RestrictAccessibility();
-                Download();
+                //Pass the validated link into the download method so it can be assigned to a property in the YoutubeVideoModel or the YoutubeAudioModel
+                Download(isGoodLink.Item2);
             }
         }
 
@@ -55,7 +56,7 @@ namespace YoutubeDownloader
                 return Tuple.Create(true, normalUrl);
         }
 
-        private void Download()
+        private void Download(string validatedLink)
         {
             //Download video
             if ((int)cboFileType.SelectedIndex == 0) //Video is selected from dropdown list
@@ -64,7 +65,7 @@ namespace YoutubeDownloader
                 YoutubeVideoModel videoDownloader = new YoutubeVideoModel();
 
                 //Set videoDownloader properties
-                videoDownloader.Link = txtLink1.Text;
+                videoDownloader.Link = validatedLink;
                 videoDownloader.FolderPath = txtPath.Text;
 
                 //Download video
@@ -77,7 +78,7 @@ namespace YoutubeDownloader
                 YoutubeAudioModel audioDownloader = new YoutubeAudioModel();
 
                 //Set AudioDownloader properties
-                audioDownloader.Link = txtLink1.Text;
+                audioDownloader.Link = validatedLink;
                 audioDownloader.FolderPath = txtPath.Text;
 
                 //Download audio
