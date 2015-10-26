@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmYTDownloader));
-            this.txtLink1 = new System.Windows.Forms.TextBox();
+            this.txtLink = new System.Windows.Forms.TextBox();
             this.lblURL = new System.Windows.Forms.Label();
             this.lblDownload = new System.Windows.Forms.Label();
             this.txtPath = new System.Windows.Forms.TextBox();
@@ -43,13 +43,13 @@
             ((System.ComponentModel.ISupportInitialize)(this.picLogo)).BeginInit();
             this.SuspendLayout();
             // 
-            // txtLink1
+            // txtLink
             // 
-            this.txtLink1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtLink1.Location = new System.Drawing.Point(136, 136);
-            this.txtLink1.Name = "txtLink1";
-            this.txtLink1.Size = new System.Drawing.Size(395, 22);
-            this.txtLink1.TabIndex = 1;
+            this.txtLink.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtLink.Location = new System.Drawing.Point(136, 136);
+            this.txtLink.Name = "txtLink";
+            this.txtLink.Size = new System.Drawing.Size(395, 22);
+            this.txtLink.TabIndex = 1;
             // 
             // lblURL
             // 
@@ -155,7 +155,7 @@
             this.Controls.Add(this.txtPath);
             this.Controls.Add(this.lblDownload);
             this.Controls.Add(this.lblURL);
-            this.Controls.Add(this.txtLink1);
+            this.Controls.Add(this.txtLink);
             this.Name = "frmYTDownloader";
             this.Text = "Youtube Downloader 1.0";
             ((System.ComponentModel.ISupportInitialize)(this.picLogo)).EndInit();
@@ -166,7 +166,7 @@
 
         #endregion
 
-        private System.Windows.Forms.TextBox txtLink1;
+        private System.Windows.Forms.TextBox txtLink;
         private System.Windows.Forms.Label lblURL;
         private System.Windows.Forms.Label lblDownload;
         private System.Windows.Forms.TextBox txtPath;

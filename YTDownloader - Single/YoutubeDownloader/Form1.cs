@@ -47,7 +47,7 @@ namespace YoutubeDownloader
                 return Tuple.Create(false, "");
             }
             //Checks that URL entered corresponds to a valid Youtube video
-            else if (!(DownloadUrlResolver.TryNormalizeYoutubeUrl(txtLink1.Text, out normalUrl)))
+            else if (!(DownloadUrlResolver.TryNormalizeYoutubeUrl(txtLink.Text, out normalUrl)))
             {
                 MessageBox.Show("Please enter a valid Youtube link");
                 return Tuple.Create(false, "");
@@ -170,19 +170,19 @@ namespace YoutubeDownloader
             cboFileType.Enabled = false;
             btnFolder.Enabled = false;
             txtPath.Enabled = false;
-            txtLink1.Enabled = false;
+            txtLink.Enabled = false;
         }
 
         //Enables buttons and textboxes after a download is complete
         private void EnableAccessibility()
         {
             lblUpdate.Text = "";
-            txtLink1.Text = "";
+            txtLink.Text = "";
             btnDownload.Enabled = true;
             cboFileType.Enabled = true;
             btnFolder.Enabled = true;
             txtPath.Enabled = true;
-            txtLink1.Enabled = true;
+            txtLink.Enabled = true;
             pgDownload.Value = 0;
         }
     }
