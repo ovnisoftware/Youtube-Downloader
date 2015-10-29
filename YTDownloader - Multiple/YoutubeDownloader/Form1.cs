@@ -157,10 +157,15 @@ namespace YoutubeDownloader
         //Removes selected row in listbox and corresponding item in downloadList
         private void btnRemove_Click(object sender, EventArgs e)
         {
-            for (int i = listBox1.SelectedIndices.Count - 1; i >= 0; i--)
-            {
-                downloadList.RemoveAt(i);
-            }
+            // Get the currently selected item in the ListBox.
+            int index = listBox1.SelectedIndex;// .SelectedItem.ToString();
+
+            // If no item is selected, display a message, else remove the item from downloadList
+            if (index == -1)
+                MessageBox.Show("No item selected to remove");
+            else
+                downloadList.RemoveAt(listBox1.SelectedIndex);
+
             listBox1.DataSource = null;
             listBox1.DataSource = downloadList;
         }
@@ -301,6 +306,16 @@ namespace YoutubeDownloader
             lblUpdate.Text = "";
             txtLink.Text = "";
             progressBar1.Value = 0;
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

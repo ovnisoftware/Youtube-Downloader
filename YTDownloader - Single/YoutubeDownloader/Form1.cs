@@ -111,6 +111,7 @@ namespace YoutubeDownloader
 
                 //Link progress bar up to download progress
                 audioDownloader.AudioDownloaderType.DownloadProgressChanged += (sender, args) => pgDownload.Value = (int)args.ProgressPercentage;
+                CheckForIllegalCrossThreadCalls = false;
 
                 //Download audio
                 FileDownloader.DownloadAudio(audioDownloader);
@@ -147,6 +148,7 @@ namespace YoutubeDownloader
 
                 //Link progress bar up to download progress
                 videoDownloader.VideoDownloaderType.DownloadProgressChanged += (sender, args) => pgDownload.Value = (int)args.ProgressPercentage;
+                CheckForIllegalCrossThreadCalls = false;
 
                 //Download video
                 FileDownloader.DownloadVideo(videoDownloader);

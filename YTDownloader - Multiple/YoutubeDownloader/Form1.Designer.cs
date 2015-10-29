@@ -142,6 +142,7 @@
             this.listBox1.Name = "listBox1";
             this.listBox1.Size = new System.Drawing.Size(831, 244);
             this.listBox1.TabIndex = 49;
+            this.listBox1.SelectedIndexChanged += new System.EventHandler(this.listBox1_SelectedIndexChanged);
             // 
             // btnDownloadList
             // 
@@ -196,6 +197,7 @@
             this.Controls.Add(this.txtLink);
             this.Name = "Form1";
             this.Text = "Youtube Downloader 2.0";
+            this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
