@@ -40,6 +40,7 @@
             this.lblUpdate = new System.Windows.Forms.Label();
             this.btnDownload = new System.Windows.Forms.Button();
             this.picLogo = new System.Windows.Forms.PictureBox();
+            this.checkBox1 = new System.Windows.Forms.CheckBox();
             ((System.ComponentModel.ISupportInitialize)(this.picLogo)).BeginInit();
             this.SuspendLayout();
             // 
@@ -141,11 +142,23 @@
             this.picLogo.TabIndex = 48;
             this.picLogo.TabStop = false;
             // 
+            // checkBox1
+            // 
+            this.checkBox1.AutoSize = true;
+            this.checkBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox1.Location = new System.Drawing.Point(371, 218);
+            this.checkBox1.Name = "checkBox1";
+            this.checkBox1.Size = new System.Drawing.Size(265, 20);
+            this.checkBox1.TabIndex = 49;
+            this.checkBox1.Text = "Open Folder When Download Complete";
+            this.checkBox1.UseVisualStyleBackColor = true;
+            // 
             // frmYTDownloader
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(650, 224);
+            this.ClientSize = new System.Drawing.Size(643, 246);
+            this.Controls.Add(this.checkBox1);
             this.Controls.Add(this.picLogo);
             this.Controls.Add(this.btnDownload);
             this.Controls.Add(this.lblUpdate);
@@ -177,6 +190,7 @@
         private System.Windows.Forms.Label lblUpdate;
         private System.Windows.Forms.Button btnDownload;
         private System.Windows.Forms.PictureBox picLogo;
+        private System.Windows.Forms.CheckBox checkBox1;
     }
 }
 

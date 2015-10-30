@@ -2,6 +2,7 @@
 using System.Windows.Forms;
 using YoutubeExtractor;
 using System.IO;  //Directory.Exists
+using System.Diagnostics;
 
 namespace YoutubeDownloader
 {
@@ -108,6 +109,7 @@ namespace YoutubeDownloader
 
                 //Enable buttons once download is complete
                 audioDownloader.AudioDownloaderType.DownloadFinished += (sender, args) => EnableAccessibility();
+                audioDownloader.AudioDownloaderType.DownloadFinished += (sender, args) => OpenFolder(audioDownloader.FilePath);
 
                 //Link progress bar up to download progress
                 audioDownloader.AudioDownloaderType.DownloadProgressChanged += (sender, args) => pgDownload.Value = (int)args.ProgressPercentage;
@@ -121,6 +123,14 @@ namespace YoutubeDownloader
                 MessageBox.Show("Download cancelled");
                 EnableAccessibility();
             }
+        }
+
+        private void OpenFolder(string filePath)
+        {
+            string argument = "/select, \"" + filePath + "\"";
+            //string argument = @"/select, " + fileName;
+            if (checkBox1.Checked == true)
+                Process.Start("explorer.exe", argument);
         }
 
         private void DownloadVideo(YoutubeVideoModel videoDownloader)
@@ -145,6 +155,7 @@ namespace YoutubeDownloader
 
                 //Enable buttons once download is complete
                 videoDownloader.VideoDownloaderType.DownloadFinished += (sender, args) => EnableAccessibility();
+                videoDownloader.VideoDownloaderType.DownloadFinished += (sender, args) => OpenFolder(videoDownloader.FilePath);
 
                 //Link progress bar up to download progress
                 videoDownloader.VideoDownloaderType.DownloadProgressChanged += (sender, args) => pgDownload.Value = (int)args.ProgressPercentage;
