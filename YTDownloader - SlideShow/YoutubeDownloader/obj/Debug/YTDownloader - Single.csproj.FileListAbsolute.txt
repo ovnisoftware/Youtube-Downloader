@@ -56,3 +56,6 @@ C:\Users\tester\Desktop\YTDownloader - Complete\YoutubeDownloader\bin\Debug\Yout
 C:\Users\tester\Desktop\YTDownloader - Complete\YoutubeDownloader\obj\Debug\YoutubeDownloader.frmYTDownloader.resources
 C:\Users\tester\Desktop\YTDownloader - Complete\YoutubeDownloader\obj\Debug\YoutubeDownloader.Properties.Resources.resources
 C:\Users\tester\Desktop\YTDownloader - Complete\YoutubeDownloader\obj\Debug\YTDownloader - Single.csproj.GenerateResource.Cache
+C:\Users\tester\Documents\GitHub\Youtube-Downloader\YTDownloader - SlideShow\YoutubeDownloader\bin\Debug\YoutubeDownloader.exe.config
+C:\Users\tester\Documents\GitHub\Youtube-Downloader\YTDownloader - SlideShow\YoutubeDownloader\obj\Debug\YoutubeDownloader.exe
+C:\Users\tester\Documents\GitHub\Youtube-Downloader\YTDownloader - SlideShow\YoutubeDownloader\obj\Debug\YoutubeDownloader.pdb
