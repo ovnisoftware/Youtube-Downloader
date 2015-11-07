@@ -76,3 +76,6 @@ C:\Users\towsi\Desktop\udemy\YTDownloader\lesson14completelinkvalidation\YouTube
 C:\Users\towsi\Desktop\udemy\YTDownloader\lesson15restrictaccessabilityquestion\YouTubeDownloader\YouTubeDownloader\bin\Debug\YouTubeDownloader.exe.config
 C:\Users\towsi\Desktop\udemy\YTDownloader\lesson15restrictaccessabilityquestion\YouTubeDownloader\YouTubeDownloader\obj\Debug\YouTubeDownloader.exe
 C:\Users\towsi\Desktop\udemy\YTDownloader\lesson15restrictaccessabilityquestion\YouTubeDownloader\YouTubeDownloader\obj\Debug\YouTubeDownloader.pdb
+C:\Users\tester\Documents\GitHub\Youtube-Downloader\Lesson15 Restrict Access Challenge\YouTubeDownloader\YouTubeDownloader\bin\Debug\YouTubeDownloader.exe.config
+C:\Users\tester\Documents\GitHub\Youtube-Downloader\Lesson15 Restrict Access Challenge\YouTubeDownloader\YouTubeDownloader\obj\Debug\YouTubeDownloader.exe
+C:\Users\tester\Documents\GitHub\Youtube-Downloader\Lesson15 Restrict Access Challenge\YouTubeDownloader\YouTubeDownloader\obj\Debug\YouTubeDownloader.pdb

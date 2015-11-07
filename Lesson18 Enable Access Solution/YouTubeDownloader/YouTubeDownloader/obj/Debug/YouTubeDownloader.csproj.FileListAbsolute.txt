@@ -102,3 +102,6 @@ C:\Users\towsi\Desktop\udemy\YTDownloader\lesson18enableaccessabilitysolution\Yo
 C:\Users\towsi\Desktop\udemy\YTDownloader\lesson18enableaccessabilitysolution\YouTubeDownloader\YouTubeDownloader\obj\Debug\YouTubeDownloader.frmYTDownloader.resources
 C:\Users\towsi\Desktop\udemy\YTDownloader\lesson18enableaccessabilitysolution\YouTubeDownloader\YouTubeDownloader\obj\Debug\YouTubeDownloader.Properties.Resources.resources
 C:\Users\towsi\Desktop\udemy\YTDownloader\lesson18enableaccessabilitysolution\YouTubeDownloader\YouTubeDownloader\obj\Debug\YouTubeDownloader.csproj.GenerateResource.Cache
+C:\Users\tester\Documents\GitHub\Youtube-Downloader\Lesson18 Enable Access Solution\YouTubeDownloader\YouTubeDownloader\bin\Debug\YouTubeDownloader.exe.config
+C:\Users\tester\Documents\GitHub\Youtube-Downloader\Lesson18 Enable Access Solution\YouTubeDownloader\YouTubeDownloader\obj\Debug\YouTubeDownloader.exe
+C:\Users\tester\Documents\GitHub\Youtube-Downloader\Lesson18 Enable Access Solution\YouTubeDownloader\YouTubeDownloader\obj\Debug\YouTubeDownloader.pdb

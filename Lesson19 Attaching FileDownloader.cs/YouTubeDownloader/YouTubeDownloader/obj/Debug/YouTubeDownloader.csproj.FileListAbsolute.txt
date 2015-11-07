@@ -105,3 +105,6 @@ C:\Users\towsi\Desktop\udemy\YTDownloader\lesson18enableaccessabilitysolution\Yo
 C:\Users\towsi\Desktop\udemy\YTDownloader\lesson19addfiledownloader\YouTubeDownloader\YouTubeDownloader\bin\Debug\YouTubeDownloader.exe.config
 C:\Users\towsi\Desktop\udemy\YTDownloader\lesson19addfiledownloader\YouTubeDownloader\YouTubeDownloader\obj\Debug\YouTubeDownloader.exe
 C:\Users\towsi\Desktop\udemy\YTDownloader\lesson19addfiledownloader\YouTubeDownloader\YouTubeDownloader\obj\Debug\YouTubeDownloader.pdb
+C:\Users\tester\Documents\GitHub\Youtube-Downloader\Lesson19 Attaching FileDownloader.cs\YouTubeDownloader\YouTubeDownloader\bin\Debug\YouTubeDownloader.exe.config
+C:\Users\tester\Documents\GitHub\Youtube-Downloader\Lesson19 Attaching FileDownloader.cs\YouTubeDownloader\YouTubeDownloader\obj\Debug\YouTubeDownloader.exe
+C:\Users\tester\Documents\GitHub\Youtube-Downloader\Lesson19 Attaching FileDownloader.cs\YouTubeDownloader\YouTubeDownloader\obj\Debug\YouTubeDownloader.pdb

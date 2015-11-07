@@ -122,3 +122,6 @@ C:\Users\towsi\Desktop\udemy\YTDownloader\lesson22populatetheyoutubevideomodel\Y
 C:\Users\towsi\Desktop\udemy\YTDownloader\lesson22populatetheyoutubevideomodel\YouTubeDownloader\bin\Debug\YouTubeDownloader.pdb
 C:\Users\towsi\Desktop\udemy\YTDownloader\lesson22populatetheyoutubevideomodel\YouTubeDownloader\bin\Debug\Newtonsoft.Json.xml
 C:\Users\towsi\Desktop\udemy\YTDownloader\lesson22populatetheyoutubevideomodel\YouTubeDownloader\bin\Debug\YoutubeExtractor.xml
+C:\Users\tester\Documents\GitHub\Youtube-Downloader\Lesson23 Wiring Up Video Download Event Handlers\YouTubeDownloader\bin\Debug\YouTubeDownloader.exe.config
+C:\Users\tester\Documents\GitHub\Youtube-Downloader\Lesson23 Wiring Up Video Download Event Handlers\YouTubeDownloader\obj\Debug\YouTubeDownloader.exe
+C:\Users\tester\Documents\GitHub\Youtube-Downloader\Lesson23 Wiring Up Video Download Event Handlers\YouTubeDownloader\obj\Debug\YouTubeDownloader.pdb

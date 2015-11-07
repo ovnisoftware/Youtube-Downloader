@@ -125,3 +125,6 @@ C:\Users\towsi\Desktop\udemy\YTDownloader\lesson22populatetheyoutubevideomodel\Y
 C:\Users\towsi\Desktop\udemy\YTDownloader\lesson24updatethefilenamelabelchallenge\YouTubeDownloader\bin\Debug\YouTubeDownloader.exe.config
 C:\Users\towsi\Desktop\udemy\YTDownloader\lesson24updatethefilenamelabelchallenge\YouTubeDownloader\obj\Debug\YouTubeDownloader.exe
 C:\Users\towsi\Desktop\udemy\YTDownloader\lesson24updatethefilenamelabelchallenge\YouTubeDownloader\obj\Debug\YouTubeDownloader.pdb
+C:\Users\tester\Documents\GitHub\Youtube-Downloader\Lesson24 Updating Label Challenge\YouTubeDownloader\bin\Debug\YouTubeDownloader.exe.config
+C:\Users\tester\Documents\GitHub\Youtube-Downloader\Lesson24 Updating Label Challenge\YouTubeDownloader\obj\Debug\YouTubeDownloader.exe
+C:\Users\tester\Documents\GitHub\Youtube-Downloader\Lesson24 Updating Label Challenge\YouTubeDownloader\obj\Debug\YouTubeDownloader.pdb

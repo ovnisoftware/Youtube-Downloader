@@ -60,3 +60,6 @@ C:\Users\towsi\Desktop\udemy\YTDownloader\lesson13folderpathvalidation\YouTubeDo
 C:\Users\towsi\Desktop\udemy\YTDownloader\lesson13folderpathvalidation\YouTubeDownloader\YouTubeDownloader\obj\Debug\YouTubeDownloader.frmYTDownloader.resources
 C:\Users\towsi\Desktop\udemy\YTDownloader\lesson13folderpathvalidation\YouTubeDownloader\YouTubeDownloader\obj\Debug\YouTubeDownloader.Properties.Resources.resources
 C:\Users\towsi\Desktop\udemy\YTDownloader\lesson13folderpathvalidation\YouTubeDownloader\YouTubeDownloader\obj\Debug\YouTubeDownloader.csproj.GenerateResource.Cache
+C:\Users\tester\Documents\GitHub\Youtube-Downloader\Lesson13 Validating Folder Path\YouTubeDownloader\YouTubeDownloader\bin\Debug\YouTubeDownloader.exe.config
+C:\Users\tester\Documents\GitHub\Youtube-Downloader\Lesson13 Validating Folder Path\YouTubeDownloader\YouTubeDownloader\obj\Debug\YouTubeDownloader.exe
+C:\Users\tester\Documents\GitHub\Youtube-Downloader\Lesson13 Validating Folder Path\YouTubeDownloader\YouTubeDownloader\obj\Debug\YouTubeDownloader.pdb
