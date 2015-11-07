@@ -1,2 +1,0 @@
-C:\Users\tester\Documents\GitHub\Youtube-Downloader\Lecture02 Creating Project\YoutubeDownloader\YoutubeDownloader\bin\Debug\YoutubeDownloader.exe.config
-C:\Users\tester\Documents\GitHub\Youtube-Downloader\Lecture03 Adding User Controls\YoutubeDownloader\YoutubeDownloader\bin\Debug\YoutubeDownloader.exe.config
