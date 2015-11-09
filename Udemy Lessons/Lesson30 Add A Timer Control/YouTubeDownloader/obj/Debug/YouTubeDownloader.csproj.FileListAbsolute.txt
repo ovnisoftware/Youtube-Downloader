@@ -183,3 +183,6 @@ C:\Users\towsi\Desktop\udemy\YTDownloader\lesson30addatimerandlookatresult\YouTu
 C:\Users\towsi\Desktop\udemy\YTDownloader\lesson30addatimerandlookatresult\YouTubeDownloader\obj\Debug\YouTubeDownloader.frmYTDownloader.resources
 C:\Users\towsi\Desktop\udemy\YTDownloader\lesson30addatimerandlookatresult\YouTubeDownloader\obj\Debug\YouTubeDownloader.Properties.Resources.resources
 C:\Users\towsi\Desktop\udemy\YTDownloader\lesson30addatimerandlookatresult\YouTubeDownloader\obj\Debug\YouTubeDownloader.csproj.GenerateResource.Cache
+C:\Users\tester\Documents\GitHub\Youtube-Downloader\Udemy Lessons\Lesson30 Add A Timer Control\YouTubeDownloader\bin\Debug\YouTubeDownloader.exe.config
+C:\Users\tester\Documents\GitHub\Youtube-Downloader\Udemy Lessons\Lesson30 Add A Timer Control\YouTubeDownloader\obj\Debug\YouTubeDownloader.exe
+C:\Users\tester\Documents\GitHub\Youtube-Downloader\Udemy Lessons\Lesson30 Add A Timer Control\YouTubeDownloader\obj\Debug\YouTubeDownloader.pdb

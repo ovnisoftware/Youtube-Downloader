@@ -218,7 +218,6 @@ namespace YoutubeDownloader
                 client.DownloadFile(imageLink2, "2.jpg");
                 client.DownloadFile(imageLink3, "3.jpg");
             }
-           // pictureBox1.ImageLocation = "1.jpg";
         }
 
         private void backgroundWorker1_RunWorkerCompleted(object sender, System.ComponentModel.RunWorkerCompletedEventArgs e)
@@ -232,7 +231,7 @@ namespace YoutubeDownloader
             {
                 pictureBox1.ImageLocation = "1.jpg";
             }
-            if (pictureBox1.ImageLocation == "1.jpg")
+            else if (pictureBox1.ImageLocation == "1.jpg")
             {
                 pictureBox1.ImageLocation = "2.jpg";
             }

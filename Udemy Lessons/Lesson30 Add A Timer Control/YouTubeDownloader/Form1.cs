@@ -218,7 +218,7 @@ namespace YouTubeDownloader
              {
                   picPreviewBox.ImageLocation = "1.jpg";
              }
-             if (picPreviewBox.ImageLocation == "1.jpg")
+             else if (picPreviewBox.ImageLocation == "1.jpg")
              {
                  picPreviewBox.ImageLocation = "2.jpg";
              }
