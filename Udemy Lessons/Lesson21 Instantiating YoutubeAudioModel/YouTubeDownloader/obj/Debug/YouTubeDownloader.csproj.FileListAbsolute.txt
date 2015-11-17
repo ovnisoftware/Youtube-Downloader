@@ -114,3 +114,6 @@ C:\Users\towsi\Desktop\udemy\YTDownloader\lesson21instantiateyoutubeaudiomodel\Y
 C:\Users\tester\Documents\GitHub\Youtube-Downloader\Lesson21 Instantiating YoutubeAudioModel\YouTubeDownloader\bin\Debug\YouTubeDownloader.exe.config
 C:\Users\tester\Documents\GitHub\Youtube-Downloader\Lesson21 Instantiating YoutubeAudioModel\YouTubeDownloader\obj\Debug\YouTubeDownloader.exe
 C:\Users\tester\Documents\GitHub\Youtube-Downloader\Lesson21 Instantiating YoutubeAudioModel\YouTubeDownloader\obj\Debug\YouTubeDownloader.pdb
+C:\Users\tester\Documents\GitHub\Youtube-Downloader\Udemy Lessons\Lesson21 Instantiating YoutubeAudioModel\YouTubeDownloader\bin\Debug\YouTubeDownloader.exe.config
+C:\Users\tester\Documents\GitHub\Youtube-Downloader\Udemy Lessons\Lesson21 Instantiating YoutubeAudioModel\YouTubeDownloader\obj\Debug\YouTubeDownloader.exe
+C:\Users\tester\Documents\GitHub\Youtube-Downloader\Udemy Lessons\Lesson21 Instantiating YoutubeAudioModel\YouTubeDownloader\obj\Debug\YouTubeDownloader.pdb

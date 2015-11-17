@@ -4,12 +4,50 @@
         <name>YoutubeExtractor</name>
     </assembly>
     <members>
-        <member name="M:YoutubeExtractor.IAudioExtractor.WriteChunk(System.Byte[],System.UInt32)">
-            <exception cref="T:YoutubeExtractor.AudioExtractionException">An error occured while writing the chunk.</exception>
-        </member>
         <member name="T:YoutubeExtractor.AudioDownloader">
             <summary>
             Provides a method to download a video and extract its audio track.
+            </summary>
+        </member>
+        <member name="M:YoutubeExtractor.AudioDownloader.#ctor(YoutubeExtractor.VideoInfo,System.String,System.Nullable{System.Int32})">
+            <summary>
+            Initializes a new instance of the <see cref="T:YoutubeExtractor.AudioDownloader"/> class.
+            </summary>
+            <param name="video">The video to convert.</param>
+            <param name="savePath">The path to save the audio.</param>
+            /// <param name="bytesToDownload">An optional value to limit the number of bytes to download.</param>
+            <exception cref="T:System.ArgumentNullException"><paramref name="video"/> or <paramref name="savePath"/> is <c>null</c>.</exception>
+        </member>
+        <member name="E:YoutubeExtractor.AudioDownloader.AudioExtractionProgressChanged">
+            <summary>
+            Occurs when the progress of the audio extraction has changed.
+            </summary>
+        </member>
+        <member name="E:YoutubeExtractor.AudioDownloader.DownloadProgressChanged">
+            <summary>
+            Occurs when the download progress of the video file has changed.
+            </summary>
+        </member>
+        <member name="M:YoutubeExtractor.AudioDownloader.Execute">
+            <summary>
+            Downloads the video from YouTube and then extracts the audio track out if it.
+            </summary>
+            <exception cref="T:System.IO.IOException">
+            The temporary video file could not be created.
+            - or -
+            The audio file could not be created.
+            </exception>
+            <exception cref="T:YoutubeExtractor.AudioExtractionException">An error occured during audio extraction.</exception>
+            <exception cref="T:System.Net.WebException">An error occured while downloading the video.</exception>
+        </member>
+        <member name="T:YoutubeExtractor.AudioExtractionException">
+            <summary>
+            The exception that is thrown when an error occurs durin audio extraction.
+            </summary>
+        </member>
+        <member name="F:YoutubeExtractor.AudioType.Unknown">
+            <summary>
+            The audio type is unknown. This can occur if YoutubeExtractor is not up-to-date.
             </summary>
         </member>
         <member name="T:YoutubeExtractor.Downloader">
@@ -25,11 +63,6 @@
             <param name="savePath">The path to save the video/audio.</param>
             /// <param name="bytesToDownload">An optional value to limit the number of bytes to download.</param>
             <exception cref="T:System.ArgumentNullException"><paramref name="video"/> or <paramref name="savePath"/> is <c>null</c>.</exception>
-        </member>
-        <member name="M:YoutubeExtractor.Downloader.Execute">
-            <summary>
-            Starts the work of the <see cref="T:YoutubeExtractor.Downloader"/>.
-            </summary>
         </member>
         <member name="E:YoutubeExtractor.Downloader.DownloadFinished">
             <summary>
@@ -56,45 +89,9 @@
             Gets the video to download/convert.
             </summary>
         </member>
-        <member name="M:YoutubeExtractor.AudioDownloader.#ctor(YoutubeExtractor.VideoInfo,System.String,System.Nullable{System.Int32})">
+        <member name="M:YoutubeExtractor.Downloader.Execute">
             <summary>
-            Initializes a new instance of the <see cref="T:YoutubeExtractor.AudioDownloader"/> class.
-            </summary>
-            <param name="video">The video to convert.</param>
-            <param name="savePath">The path to save the audio.</param>
-            /// <param name="bytesToDownload">An optional value to limit the number of bytes to download.</param>
-            <exception cref="T:System.ArgumentNullException"><paramref name="video"/> or <paramref name="savePath"/> is <c>null</c>.</exception>
-        </member>
-        <member name="M:YoutubeExtractor.AudioDownloader.Execute">
-            <summary>
-            Downloads the video from YouTube and then extracts the audio track out if it.
-            </summary>
-            <exception cref="T:System.IO.IOException">
-            The temporary video file could not be created.
-            - or -
-            The audio file could not be created.
-            </exception>
-            <exception cref="T:YoutubeExtractor.AudioExtractionException">An error occured during audio extraction.</exception>
-            <exception cref="T:System.Net.WebException">An error occured while downloading the video.</exception>
-        </member>
-        <member name="E:YoutubeExtractor.AudioDownloader.AudioExtractionProgressChanged">
-            <summary>
-            Occurs when the progress of the audio extraction has changed.
-            </summary>
-        </member>
-        <member name="E:YoutubeExtractor.AudioDownloader.DownloadProgressChanged">
-            <summary>
-            Occurs when the download progress of the video file has changed.
-            </summary>
-        </member>
-        <member name="T:YoutubeExtractor.AudioExtractionException">
-            <summary>
-            The exception that is thrown when an error occurs durin audio extraction.
-            </summary>
-        </member>
-        <member name="F:YoutubeExtractor.AudioType.Unknown">
-            <summary>
-            The audio type is unknown. This can occur if YoutubeExtractor is not up-to-date.
+            Starts the work of the <see cref="T:YoutubeExtractor.Downloader"/>.
             </summary>
         </member>
         <member name="T:YoutubeExtractor.DownloadUrlResolver">
@@ -104,8 +101,9 @@
         </member>
         <member name="M:YoutubeExtractor.DownloadUrlResolver.DecryptDownloadUrl(YoutubeExtractor.VideoInfo)">
             <summary>
-            Decrypts the signature in the <see cref="P:YoutubeExtractor.VideoInfo.DownloadUrl"/> property and sets it
-            to the decrypted URL. Use this method, if you have decryptSignature in the <see cref="M:YoutubeExtractor.DownloadUrlResolver.GetDownloadUrls(System.String,System.Boolean)"/> method set to false.
+            Decrypts the signature in the <see cref="P:YoutubeExtractor.VideoInfo.DownloadUrl" /> property and sets it
+            to the decrypted URL. Use this method, if you have decryptSignature in the <see
+            cref="M:YoutubeExtractor.DownloadUrlResolver.GetDownloadUrls(System.String,System.Boolean)" /> method set to false.
             </summary>
             <param name="videoInfo">The video info which's downlaod URL should be decrypted.</param>
             <exception cref="T:YoutubeExtractor.YoutubeParseException">
@@ -114,20 +112,21 @@
         </member>
         <member name="M:YoutubeExtractor.DownloadUrlResolver.GetDownloadUrls(System.String,System.Boolean)">
             <summary>
-            Gets a list of <see cref="T:YoutubeExtractor.VideoInfo"/>s for the specified URL.
+            Gets a list of <see cref="T:YoutubeExtractor.VideoInfo" />s for the specified URL.
             </summary>
             <param name="videoUrl">The URL of the YouTube video.</param>
             <param name="decryptSignature">
             A value indicating whether the video signatures should be decrypted or not. Decrypting
-            consists of a HTTP request for each <see cref="T:YoutubeExtractor.VideoInfo"/>, so you may want to set
-            this to false and call <see cref="M:YoutubeExtractor.DownloadUrlResolver.DecryptDownloadUrl(YoutubeExtractor.VideoInfo)"/> on your selected <see cref="T:YoutubeExtractor.VideoInfo"/> later.
+            consists of a HTTP request for each <see cref="T:YoutubeExtractor.VideoInfo" />, so you may want to set
+            this to false and call <see cref="M:YoutubeExtractor.DownloadUrlResolver.DecryptDownloadUrl(YoutubeExtractor.VideoInfo)" /> on your selected <see
+            cref="T:YoutubeExtractor.VideoInfo" /> later.
             </param>
-            <returns>A list of <see cref="T:YoutubeExtractor.VideoInfo"/>s that can be used to download the video.</returns>
+            <returns>A list of <see cref="T:YoutubeExtractor.VideoInfo" />s that can be used to download the video.</returns>
             <exception cref="T:System.ArgumentNullException">
-            The <paramref name="videoUrl"/> parameter is <c>null</c>.
+            The <paramref name="videoUrl" /> parameter is <c>null</c>.
             </exception>
             <exception cref="T:System.ArgumentException">
-            The <paramref name="videoUrl"/> parameter is not a valid YouTube URL.
+            The <paramref name="videoUrl" /> parameter is not a valid YouTube URL.
             </exception>
             <exception cref="T:YoutubeExtractor.VideoNotAvailableException">The video is not available.</exception>
             <exception cref="T:System.Net.WebException">
@@ -156,6 +155,9 @@
         <member name="M:YoutubeExtractor.FlvFile.ExtractStreams">
             <exception cref="T:YoutubeExtractor.AudioExtractionException">The input file is not an FLV file.</exception>
         </member>
+        <member name="M:YoutubeExtractor.IAudioExtractor.WriteChunk(System.Byte[],System.UInt32)">
+            <exception cref="T:YoutubeExtractor.AudioExtractionException">An error occured while writing the chunk.</exception>
+        </member>
         <member name="P:YoutubeExtractor.ProgressEventArgs.Cancel">
             <summary>
             Gets or sets a token whether the operation that reports the progress should be canceled.
@@ -180,17 +182,17 @@
             <param name="bytesToDownload">An optional value to limit the number of bytes to download.</param>
             <exception cref="T:System.ArgumentNullException"><paramref name="video"/> or <paramref name="savePath"/> is <c>null</c>.</exception>
         </member>
+        <member name="E:YoutubeExtractor.VideoDownloader.DownloadProgressChanged">
+            <summary>
+            Occurs when the downlaod progress of the video file has changed.
+            </summary>
+        </member>
         <member name="M:YoutubeExtractor.VideoDownloader.Execute">
             <summary>
             Starts the video download.
             </summary>
             <exception cref="T:System.IO.IOException">The video file could not be saved.</exception>
             <exception cref="T:System.Net.WebException">An error occured while downloading the video.</exception>
-        </member>
-        <member name="E:YoutubeExtractor.VideoDownloader.DownloadProgressChanged">
-            <summary>
-            Occurs when the downlaod progress of the video file has changed.
-            </summary>
         </member>
         <member name="P:YoutubeExtractor.VideoInfo.AdaptiveType">
             <summary>
@@ -269,7 +271,7 @@
         </member>
         <member name="P:YoutubeExtractor.VideoInfo.HtmlPlayerVersion">
             <summary>
-            We use this in the <see cref="M:YoutubeExtractor.DownloadUrlResolver.DecryptDownloadUrl(YoutubeExtractor.VideoInfo)"/> method to
+            We use this in the <see cref="M:YoutubeExtractor.DownloadUrlResolver.DecryptDownloadUrl(YoutubeExtractor.VideoInfo)" /> method to
             decrypt the signature
             </summary>
             <returns></returns>

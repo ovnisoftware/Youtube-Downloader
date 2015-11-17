@@ -63,3 +63,16 @@ C:\Users\towsi\Desktop\udemy\YTDownloader\lesson13folderpathvalidation\YouTubeDo
 C:\Users\tester\Documents\GitHub\Youtube-Downloader\Lesson13 Validating Folder Path\YouTubeDownloader\YouTubeDownloader\bin\Debug\YouTubeDownloader.exe.config
 C:\Users\tester\Documents\GitHub\Youtube-Downloader\Lesson13 Validating Folder Path\YouTubeDownloader\YouTubeDownloader\obj\Debug\YouTubeDownloader.exe
 C:\Users\tester\Documents\GitHub\Youtube-Downloader\Lesson13 Validating Folder Path\YouTubeDownloader\YouTubeDownloader\obj\Debug\YouTubeDownloader.pdb
+C:\Users\tester\Documents\GitHub\Youtube-Downloader\Udemy Lessons\Lesson13 Validating Folder Path\YouTubeDownloader\YouTubeDownloader\bin\Debug\YouTubeDownloader.exe.config
+C:\Users\tester\Documents\GitHub\Youtube-Downloader\Udemy Lessons\Lesson13 Validating Folder Path\YouTubeDownloader\YouTubeDownloader\obj\Debug\YouTubeDownloader.exe
+C:\Users\tester\Documents\GitHub\Youtube-Downloader\Udemy Lessons\Lesson13 Validating Folder Path\YouTubeDownloader\YouTubeDownloader\obj\Debug\YouTubeDownloader.pdb
+C:\Users\tester\Documents\GitHub\Youtube-Downloader\Udemy Lessons\Lesson13 Validating Folder Path\YouTubeDownloader\YouTubeDownloader\bin\Debug\YouTubeDownloader.exe
+C:\Users\tester\Documents\GitHub\Youtube-Downloader\Udemy Lessons\Lesson13 Validating Folder Path\YouTubeDownloader\YouTubeDownloader\bin\Debug\YouTubeDownloader.pdb
+C:\Users\tester\Documents\GitHub\Youtube-Downloader\Udemy Lessons\Lesson13 Validating Folder Path\YouTubeDownloader\YouTubeDownloader\bin\Debug\Newtonsoft.Json.dll
+C:\Users\tester\Documents\GitHub\Youtube-Downloader\Udemy Lessons\Lesson13 Validating Folder Path\YouTubeDownloader\YouTubeDownloader\bin\Debug\YoutubeExtractor.dll
+C:\Users\tester\Documents\GitHub\Youtube-Downloader\Udemy Lessons\Lesson13 Validating Folder Path\YouTubeDownloader\YouTubeDownloader\bin\Debug\Newtonsoft.Json.xml
+C:\Users\tester\Documents\GitHub\Youtube-Downloader\Udemy Lessons\Lesson13 Validating Folder Path\YouTubeDownloader\YouTubeDownloader\bin\Debug\YoutubeExtractor.xml
+C:\Users\tester\Documents\GitHub\Youtube-Downloader\Udemy Lessons\Lesson13 Validating Folder Path\YouTubeDownloader\YouTubeDownloader\obj\Debug\YouTubeDownloader.csprojResolveAssemblyReference.cache
+C:\Users\tester\Documents\GitHub\Youtube-Downloader\Udemy Lessons\Lesson13 Validating Folder Path\YouTubeDownloader\YouTubeDownloader\obj\Debug\YouTubeDownloader.frmYTDownloader.resources
+C:\Users\tester\Documents\GitHub\Youtube-Downloader\Udemy Lessons\Lesson13 Validating Folder Path\YouTubeDownloader\YouTubeDownloader\obj\Debug\YouTubeDownloader.Properties.Resources.resources
+C:\Users\tester\Documents\GitHub\Youtube-Downloader\Udemy Lessons\Lesson13 Validating Folder Path\YouTubeDownloader\YouTubeDownloader\obj\Debug\YouTubeDownloader.csproj.GenerateResource.Cache

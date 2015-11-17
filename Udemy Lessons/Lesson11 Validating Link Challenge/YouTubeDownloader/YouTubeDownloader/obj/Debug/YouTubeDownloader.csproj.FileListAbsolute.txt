@@ -37,3 +37,10 @@ C:\Users\towsi\Desktop\udemy\YTDownloader\lesson11linkvalidationquestion\YouTube
 C:\Users\tester\Documents\GitHub\Youtube-Downloader\Lesson11 Validating Link Challenge\YouTubeDownloader\YouTubeDownloader\bin\Debug\YouTubeDownloader.exe.config
 C:\Users\tester\Documents\GitHub\Youtube-Downloader\Lesson11 Validating Link Challenge\YouTubeDownloader\YouTubeDownloader\obj\Debug\YouTubeDownloader.exe
 C:\Users\tester\Documents\GitHub\Youtube-Downloader\Lesson11 Validating Link Challenge\YouTubeDownloader\YouTubeDownloader\obj\Debug\YouTubeDownloader.pdb
+C:\Users\tester\Documents\GitHub\Youtube-Downloader\Udemy Lessons\Lesson11 Validating Link Challenge\YouTubeDownloader\YouTubeDownloader\bin\Debug\YouTubeDownloader.exe.config
+C:\Users\tester\Documents\GitHub\Youtube-Downloader\Udemy Lessons\Lesson11 Validating Link Challenge\YouTubeDownloader\YouTubeDownloader\obj\Debug\YouTubeDownloader.exe
+C:\Users\tester\Documents\GitHub\Youtube-Downloader\Udemy Lessons\Lesson11 Validating Link Challenge\YouTubeDownloader\YouTubeDownloader\obj\Debug\YouTubeDownloader.pdb
+C:\Users\tester\Documents\GitHub\Youtube-Downloader\Udemy Lessons\Lesson11 Validating Link Challenge\YouTubeDownloader\YouTubeDownloader\obj\Debug\YouTubeDownloader.csprojResolveAssemblyReference.cache
+C:\Users\tester\Documents\GitHub\Youtube-Downloader\Udemy Lessons\Lesson11 Validating Link Challenge\YouTubeDownloader\YouTubeDownloader\obj\Debug\YouTubeDownloader.frmYTDownloader.resources
+C:\Users\tester\Documents\GitHub\Youtube-Downloader\Udemy Lessons\Lesson11 Validating Link Challenge\YouTubeDownloader\YouTubeDownloader\obj\Debug\YouTubeDownloader.Properties.Resources.resources
+C:\Users\tester\Documents\GitHub\Youtube-Downloader\Udemy Lessons\Lesson11 Validating Link Challenge\YouTubeDownloader\YouTubeDownloader\obj\Debug\YouTubeDownloader.csproj.GenerateResource.Cache

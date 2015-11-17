@@ -125,3 +125,16 @@ C:\Users\towsi\Desktop\udemy\YTDownloader\lesson22populatetheyoutubevideomodel\Y
 C:\Users\tester\Documents\GitHub\Youtube-Downloader\Lesson23 Wiring Up Video Download Event Handlers\YouTubeDownloader\bin\Debug\YouTubeDownloader.exe.config
 C:\Users\tester\Documents\GitHub\Youtube-Downloader\Lesson23 Wiring Up Video Download Event Handlers\YouTubeDownloader\obj\Debug\YouTubeDownloader.exe
 C:\Users\tester\Documents\GitHub\Youtube-Downloader\Lesson23 Wiring Up Video Download Event Handlers\YouTubeDownloader\obj\Debug\YouTubeDownloader.pdb
+C:\Users\tester\Documents\GitHub\Youtube-Downloader\Udemy Lessons\Lesson23 Wiring Up Video Download Event Handlers\YouTubeDownloader\bin\Debug\YouTubeDownloader.exe.config
+C:\Users\tester\Documents\GitHub\Youtube-Downloader\Udemy Lessons\Lesson23 Wiring Up Video Download Event Handlers\YouTubeDownloader\obj\Debug\YouTubeDownloader.exe
+C:\Users\tester\Documents\GitHub\Youtube-Downloader\Udemy Lessons\Lesson23 Wiring Up Video Download Event Handlers\YouTubeDownloader\obj\Debug\YouTubeDownloader.pdb
+C:\Users\tester\Documents\GitHub\Youtube-Downloader\Udemy Lessons\Lesson23 Wiring Up Video Download Event Handlers\YouTubeDownloader\bin\Debug\YouTubeDownloader.exe
+C:\Users\tester\Documents\GitHub\Youtube-Downloader\Udemy Lessons\Lesson23 Wiring Up Video Download Event Handlers\YouTubeDownloader\bin\Debug\YouTubeDownloader.pdb
+C:\Users\tester\Documents\GitHub\Youtube-Downloader\Udemy Lessons\Lesson23 Wiring Up Video Download Event Handlers\YouTubeDownloader\bin\Debug\Newtonsoft.Json.dll
+C:\Users\tester\Documents\GitHub\Youtube-Downloader\Udemy Lessons\Lesson23 Wiring Up Video Download Event Handlers\YouTubeDownloader\bin\Debug\YoutubeExtractor.dll
+C:\Users\tester\Documents\GitHub\Youtube-Downloader\Udemy Lessons\Lesson23 Wiring Up Video Download Event Handlers\YouTubeDownloader\bin\Debug\Newtonsoft.Json.xml
+C:\Users\tester\Documents\GitHub\Youtube-Downloader\Udemy Lessons\Lesson23 Wiring Up Video Download Event Handlers\YouTubeDownloader\bin\Debug\YoutubeExtractor.xml
+C:\Users\tester\Documents\GitHub\Youtube-Downloader\Udemy Lessons\Lesson23 Wiring Up Video Download Event Handlers\YouTubeDownloader\obj\Debug\YouTubeDownloader.csprojResolveAssemblyReference.cache
+C:\Users\tester\Documents\GitHub\Youtube-Downloader\Udemy Lessons\Lesson23 Wiring Up Video Download Event Handlers\YouTubeDownloader\obj\Debug\YouTubeDownloader.frmYTDownloader.resources
+C:\Users\tester\Documents\GitHub\Youtube-Downloader\Udemy Lessons\Lesson23 Wiring Up Video Download Event Handlers\YouTubeDownloader\obj\Debug\YouTubeDownloader.Properties.Resources.resources
+C:\Users\tester\Documents\GitHub\Youtube-Downloader\Udemy Lessons\Lesson23 Wiring Up Video Download Event Handlers\YouTubeDownloader\obj\Debug\YouTubeDownloader.csproj.GenerateResource.Cache

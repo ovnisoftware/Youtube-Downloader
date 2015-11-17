@@ -50,3 +50,16 @@ C:\Users\towsi\Desktop\udemy\YTDownloader\lesson12linkvalidationsolution\YouTube
 C:\Users\tester\Documents\GitHub\Youtube-Downloader\Lesson12 Validating Link Solution\YouTubeDownloader\YouTubeDownloader\bin\Debug\YouTubeDownloader.exe.config
 C:\Users\tester\Documents\GitHub\Youtube-Downloader\Lesson12 Validating Link Solution\YouTubeDownloader\YouTubeDownloader\obj\Debug\YouTubeDownloader.exe
 C:\Users\tester\Documents\GitHub\Youtube-Downloader\Lesson12 Validating Link Solution\YouTubeDownloader\YouTubeDownloader\obj\Debug\YouTubeDownloader.pdb
+C:\Users\tester\Documents\GitHub\Youtube-Downloader\Udemy Lessons\Lesson12 Validating Link Solution\YouTubeDownloader\YouTubeDownloader\bin\Debug\YouTubeDownloader.exe.config
+C:\Users\tester\Documents\GitHub\Youtube-Downloader\Udemy Lessons\Lesson12 Validating Link Solution\YouTubeDownloader\YouTubeDownloader\obj\Debug\YouTubeDownloader.exe
+C:\Users\tester\Documents\GitHub\Youtube-Downloader\Udemy Lessons\Lesson12 Validating Link Solution\YouTubeDownloader\YouTubeDownloader\obj\Debug\YouTubeDownloader.pdb
+C:\Users\tester\Documents\GitHub\Youtube-Downloader\Udemy Lessons\Lesson12 Validating Link Solution\YouTubeDownloader\YouTubeDownloader\bin\Debug\YouTubeDownloader.exe
+C:\Users\tester\Documents\GitHub\Youtube-Downloader\Udemy Lessons\Lesson12 Validating Link Solution\YouTubeDownloader\YouTubeDownloader\bin\Debug\YouTubeDownloader.pdb
+C:\Users\tester\Documents\GitHub\Youtube-Downloader\Udemy Lessons\Lesson12 Validating Link Solution\YouTubeDownloader\YouTubeDownloader\bin\Debug\Newtonsoft.Json.dll
+C:\Users\tester\Documents\GitHub\Youtube-Downloader\Udemy Lessons\Lesson12 Validating Link Solution\YouTubeDownloader\YouTubeDownloader\bin\Debug\YoutubeExtractor.dll
+C:\Users\tester\Documents\GitHub\Youtube-Downloader\Udemy Lessons\Lesson12 Validating Link Solution\YouTubeDownloader\YouTubeDownloader\bin\Debug\Newtonsoft.Json.xml
+C:\Users\tester\Documents\GitHub\Youtube-Downloader\Udemy Lessons\Lesson12 Validating Link Solution\YouTubeDownloader\YouTubeDownloader\bin\Debug\YoutubeExtractor.xml
+C:\Users\tester\Documents\GitHub\Youtube-Downloader\Udemy Lessons\Lesson12 Validating Link Solution\YouTubeDownloader\YouTubeDownloader\obj\Debug\YouTubeDownloader.csprojResolveAssemblyReference.cache
+C:\Users\tester\Documents\GitHub\Youtube-Downloader\Udemy Lessons\Lesson12 Validating Link Solution\YouTubeDownloader\YouTubeDownloader\obj\Debug\YouTubeDownloader.frmYTDownloader.resources
+C:\Users\tester\Documents\GitHub\Youtube-Downloader\Udemy Lessons\Lesson12 Validating Link Solution\YouTubeDownloader\YouTubeDownloader\obj\Debug\YouTubeDownloader.Properties.Resources.resources
+C:\Users\tester\Documents\GitHub\Youtube-Downloader\Udemy Lessons\Lesson12 Validating Link Solution\YouTubeDownloader\YouTubeDownloader\obj\Debug\YouTubeDownloader.csproj.GenerateResource.Cache
