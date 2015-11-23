@@ -69,7 +69,6 @@ C:\Users\tester\Documents\GitHub\Youtube-Downloader\YTDownloader - Complete Vers
 C:\Users\tester\Documents\GitHub\Youtube-Downloader\YTDownloader - Complete Versions\YTDownloader - Multiple V2\YoutubeDownloader\bin\Debug\YoutubeExtractor.dll
 C:\Users\tester\Documents\GitHub\Youtube-Downloader\YTDownloader - Complete Versions\YTDownloader - Multiple V2\YoutubeDownloader\bin\Debug\Newtonsoft.Json.xml
 C:\Users\tester\Documents\GitHub\Youtube-Downloader\YTDownloader - Complete Versions\YTDownloader - Multiple V2\YoutubeDownloader\bin\Debug\YoutubeExtractor.xml
-C:\Users\tester\Documents\GitHub\Youtube-Downloader\YTDownloader - Complete Versions\YTDownloader - Multiple V2\YoutubeDownloader\obj\Debug\YTDownloader - Multiple.csprojResolveAssemblyReference.cache
 C:\Users\tester\Documents\GitHub\Youtube-Downloader\YTDownloader - Complete Versions\YTDownloader - Multiple V2\YoutubeDownloader\obj\Debug\YoutubeDownloader.Form1.resources
 C:\Users\tester\Documents\GitHub\Youtube-Downloader\YTDownloader - Complete Versions\YTDownloader - Multiple V2\YoutubeDownloader\obj\Debug\YoutubeDownloader.Properties.Resources.resources
 C:\Users\tester\Documents\GitHub\Youtube-Downloader\YTDownloader - Complete Versions\YTDownloader - Multiple V2\YoutubeDownloader\obj\Debug\YTDownloader - Multiple.csproj.GenerateResource.Cache
