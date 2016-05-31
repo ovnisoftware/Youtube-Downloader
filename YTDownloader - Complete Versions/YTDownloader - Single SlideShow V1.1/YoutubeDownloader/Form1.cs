@@ -27,6 +27,7 @@ namespace YoutubeDownloader
 
         private void btnDownload_Click(object sender, EventArgs e)
         {
+            pgDownload.Value = 0;
             Tuple<bool, string> isGoodLink = ValidateLink();
             if (isGoodLink.Item1 == true)
             {
@@ -160,7 +161,6 @@ namespace YoutubeDownloader
                 videoDownloader.VideoDownloaderType.DownloadFinished += (sender, args) => EnableAccessibility();
                 videoDownloader.VideoDownloaderType.DownloadFinished += (sender, args) => OpenFolder(videoDownloader.FilePath);
 
-
                 //Link progress bar up to download progress
                 videoDownloader.VideoDownloaderType.DownloadProgressChanged += (sender, args) => pgDownload.Value = (int)args.ProgressPercentage;
                 CheckForIllegalCrossThreadCalls = false;
@@ -201,7 +201,7 @@ namespace YoutubeDownloader
             btnFolder.Enabled = true;
             txtPath.Enabled = true;
             txtLink.Enabled = true;
-            pgDownload.Value = 0;
+            //pgDownload.Value = 0;
         }
 
         private void backgroundWorker1_DoWork(object sender, System.ComponentModel.DoWorkEventArgs e)
